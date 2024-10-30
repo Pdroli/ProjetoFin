@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="contato.css">
+    </head>
+
+    <body>
+        <div class="container"></div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="Index.html">Voltar</a>
+                        </li>
+                    </ul>
+                </nav>
+                <header class="center">
+                    <h1>Entre em contato conosco!</h1>
+                </header>
+            <form class="contact-form" action="https://formsubmit.co/info@" method="POST"> 
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Mensagem</label>
+                    <input type="text" id="message" name="message" required>
+                </div>
+                <button type="submit">Send</button>
+                <input type="hidden" name="_next" value="Resp.html">
+                <input type="hidden" name="_subject" value="New submission!">
+            </form>
+        </div>
+    </body>
+    <nav class="navildo">
+        <footer>
+            <p>&copy; 2024 - Todos os direitos reservados a CBuilder</p>
+        </footer>
+    </nav>
+</html>

@@ -1,0 +1,113 @@
+body {
+    color: black ;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    overscroll-behavior: none;
+    background-image: url(feedback-results-information-satisfeaction.jpg);
+    background-repeat: none;
+    background-size: cover;
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition:color 0.3s ease-in-out;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    text-shadow: black 0 0 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0)
+}
+nav a {
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: gold;
+}
+
+.contact-form input{
+    width: 100%;
+    padding: 8px 0;
+    margin: 8px 0;
+}
+
+.contact-form input[type=text] {
+    height: 100px;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(70px);
+    background-color: auto;
+    border: none;
+    cursor: pointer;
+    padding: 7px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+li{
+    align-items: center;
+}
+.nav-list li a:hover {
+    color: #ffd700;
+}
+.rightNav {
+    text-align: right;
+}
+#search {
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+.navildo{
+    display: flex;
+    position: sticky;
+    align-items:center;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+    background-size: cover;
+    color: white;
+    padding: 10px 20px;
+    transform: translateY(280px);
+}
